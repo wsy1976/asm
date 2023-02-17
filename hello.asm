@@ -1,10 +1,4 @@
-;打印字符串
-;注释：
-;知识点：程序基本结构
-;知识点：利用中断调用显示字符串，字符串结束标识“$”
-;知识点：字符串的偏移地址，伪指令offset
-;知识点：利用中断返回DOS
-;入口地址：标号
+
 assume cs:code,ds:data
 data segment
     msg db 'hello world!$'
