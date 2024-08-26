@@ -6,6 +6,7 @@
 ;知识点：利用中断返回DOS
 ;入口地址：标号
 ;修改时间：2024-08-25
+;修改方式：vscode
 assume cs:code,ds:data
 data segment
     msg db 'hello world!$'
