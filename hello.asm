@@ -7,6 +7,7 @@
 ;入口地址：标号
 ;修改时间：2024-08-25
 ;修改方式：vscode
+;测试：王守玉
 assume cs:code,ds:data
 data segment
     msg db 'hello world!$'
